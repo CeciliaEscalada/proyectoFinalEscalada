@@ -1,0 +1,68 @@
+
+main{
+    font-size: $letra-chica;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+/*INDEX*/
+
+.galeria{
+    width: 100%;
+    .carousel-item{
+        height: 60vh;
+        .carousel-item img{
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+.row1Estilo{
+    height: 70vh;
+    background-color: $color-fondo;
+    color: $color-letra;
+}
+
+
+.textoIndex{
+    text-align: center;
+
+}
+
+.imagenIndex{
+    width: 95%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.row2Estilo{
+    height: 70vh;
+}
+
+
+
+
+/*INVOLUCRATE*/
+.mainEstilo{
+    background-color: $color-fondo;
+    color: $color-letra;
+    
+}
+
+
+.imgInvolucrate{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+
+
+.textoIzquierda{
+    text-align: left;
+}
+.textoDerecha{
+    text-align: right;
+}
+ .textoCentrado{
+    text-align: center;
+ }
+
+ 
+ .letraGrande{
+    font-size: $letra-grande;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titulo{
+    text-align: center;
+    color: $color-principal
+}
+

@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto, sans-serif;
+  font-size: 20 px;
+}
+
+body {
+  background-color: blanchedalmond;
+  height: 100vh;
+}
+
+.fondo {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.642), rgba(0, 0, 0, 0.642)), url("../assets/img/wip2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.borroso {
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px); /*efecto de esmerilado sobre un div, queda el efecto sobre la imagen de fondo*/
+  height: 100%;
+}
+
+header {
+  background-color: rgba(255, 140, 0, 0.701);
+  margin-bottom: 10px;
+  padding: 10px;
+  font-family: roboto, sans-serif;
+  font-size: 20px;
+}
+
+.navBarEstilo {
+  font-family: roboto, sans-serif;
+}
+
+.textoIzquierda {
+  text-align: left;
+}
+
+.textoDerecha {
+  text-align: right;
+}
+
+.textoCentrado {
+  text-align: center;
+}
+
+main {
+  font-size: 20px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.letraGrande {
+  font-size: 50px;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.titulo {
+  text-align: center;
+  color: blanchedalmond;
+}
+
+.galeria {
+  width: 100%;
+}
+
+.carousel-item {
+  height: 60vh;
+}
+
+.carousel-item img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.row1Estilo {
+  height: 70vh;
+  background-color: rgba(181, 137, 73, 0.471);
+  color: antiquewhite;
+}
+
+.textoIndex {
+  text-align: center;
+}
+
+.imagenIndex {
+  width: 95%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.row2Estilo {
+  height: 70vh;
+}
+
+/*SOBRE QOMPARTIR*/
+.videoEstilo {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/*PARAJE EL CANAL*/
+/*INVOLUCRATE*/
+.mainEstilo {
+  background-color: rgba(181, 137, 73, 0.471);
+  color: antiquewhite;
+}
+
+.imgInvolucrate {
+  height: 60vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contenedorMain {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+/*DONA*/
+footer {
+  background-color: rgba(255, 140, 0, 0.701);
+  margin-bottom: 10px;
+  padding: 10px;
+  font-family: roboto, sans-serif;
+  font-size: 20px;
+}/*# sourceMappingURL=estilos.css.map */

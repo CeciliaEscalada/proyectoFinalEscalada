@@ -1,0 +1,38 @@
+
+@mixin flexible ($direction-mixin,$justify, $alineacion, $background-color){
+    display:flex;
+    flex-direction:$direction-mixin;
+    justify-content:$justify;
+    align-items: $alineacion;
+    background-color: $background-color;
+}
+
+@mixin alineacion-flex($justify,$text-aling) {
+    justify-content: $justify;
+    text-align: $text-align;
+}
+
+@mixin flex-direction-center($direction){
+    display:flex;
+    flex-direction:$direction;
+    justify-content:center;
+}
+
+
+@mixin flex-row-center{
+	display:$flex;
+	flex-direction:row;
+	justify-content:center;
+}
+
+@mixin flex-column-center{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+@mixin flex-direction-center($direction){
+    display:flex;
+    flex-direction:$direction;
+    justify-content:center;
+}
